@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Latest Food Stories - Blog</title>
+
+  <!-- Embedded CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 1.1rem;
+      color: #666;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .col-lg-4, .col-md-6 {
+      flex: 0 0 calc(33.333% - 30px);
+      max-width: calc(33.333% - 30px);
+    }
+
+    .blog-card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .blog-image {
+      position: relative;
+    }
+
+    .blog-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .blog-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #ff6347;
+      color: #fff;
+      font-size: 0.9rem;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+
+    .blog-content {
+      padding: 20px;
+    }
+
+    .blog-content h4 {
+      margin: 10px 0;
+      font-size: 1.2rem;
+      color: #222;
+    }
+
+    .blog-content p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 25px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn-outline-primary {
+      color: #ff6347;
+      border: 2px solid #ff6347;
+      background: transparent;
+    }
+
+    .btn-outline-primary:hover {
+      background: #ff6347;
+      color: #fff;
+    }
+
+    .btn-primary-custom {
+      background: #ff6347;
+      color: #fff;
+      border: none;
+    }
+
+    .btn-primary-custom:hover {
+      background: #e5533f;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 992px) {
+      .col-lg-4 {
+        flex: 0 0 45%;
+        max-width: 45%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .col-lg-4, .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section id="blog" class="section-padding bg-light">
+        <div class="container">
+            <div class="loading">
+                <h2 class="section-title">Latest Food Stories</h2>
+                <p class="section-subtitle">Read our latest culinary adventures, tips, and stories from the kitchen</p>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Cooking Tips</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 15, 2025</p>
+                                <h4 class="mb-3">10 Essential Kitchen Tools Every Home Chef Needs</h4>
+                                <p class="text-muted">Discover the must-have tools that will transform your cooking experience and help you create restaurant-quality meals at home.</p>
+                                <a href="blog-detail.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Techniques</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 14, 2025</p>
+                                <h4 class="mb-3">Mastering the Art of Food Plating</h4>
+                                <p class="text-muted">Learn professional plating techniques to make your home-cooked meals look as stunning as they taste.</p>
+                                <a href="blog-detail-2.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/3338497/pexels-photo-3338497.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Wellness</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 13, 2025</p>
+                                <h4 class="mb-3">Mindful Cooking: A Guide to Healthy Meal Prep</h4>
+                                <p class="text-muted">Explore how mindful cooking can improve your relationship with food and lead to healthier eating habits.</p>
+                                <a href="blog-detail-3.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Cooking Tips</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 15, 2025</p>
+                                <h4 class="mb-3">10 Essential Kitchen Tools Every Home Chef Needs</h4>
+                                <p class="text-muted">Discover the must-have tools that will transform your cooking experience and help you create restaurant-quality meals at home.</p>
+                                <a href="blog-detail.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Techniques</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 14, 2025</p>
+                                <h4 class="mb-3">Mastering the Art of Food Plating</h4>
+                                <p class="text-muted">Learn professional plating techniques to make your home-cooked meals look as stunning as they taste.</p>
+                                <a href="blog-detail-2.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/3338497/pexels-photo-3338497.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Wellness</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 13, 2025</p>
+                                <h4 class="mb-3">Mindful Cooking: A Guide to Healthy Meal Prep</h4>
+                                <p class="text-muted">Explore how mindful cooking can improve your relationship with food and lead to healthier eating habits.</p>
+                                <a href="blog-detail-3.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

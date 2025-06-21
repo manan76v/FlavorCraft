@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - FlavorCraft</title>
+
+  <!-- Embedded CSS -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background: #222;
+      padding: 20px 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+
+    .about-section {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .about-section h2 {
+      font-size: 2rem;
+      color: #222;
+      margin-bottom: 20px;
+      border-left: 5px solid #ff6347;
+      padding-left: 10px;
+    }
+
+    .about-section p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .about-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .about-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .about-card h3 {
+      color: #ff6347;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      .about-section h2 {
+        font-size: 1.5rem;
+      }
+
+      .about-section p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About FlavorCraft</h1>
+    <p>Crafting Flavors, Creating Memories</p>
+  </header>
+
+  <section class="about-section">
+    <h2>Who We Are</h2>
+    <p>FlavorCraft is more than just a recipe website. We are a passionate community of food lovers, chefs, and cultural explorers who believe that food brings people together. Our mission is to share diverse, authentic, and mouth-watering recipes that you can cook at home with ease.</p>
+
+    <h2>Our Story</h2>
+    <p>Started in 2024 by a group of culinary enthusiasts, FlavorCraft was built on the idea that cooking should be both joyful and educational. From the vibrant spices of India to the elegant simplicity of Italian cuisine, we aim to take your tastebuds on a global journey.</p>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>🌍 Global Recipes</h3>
+        <p>Explore thousands of recipes from every continent, all curated with love and tested for authenticity.</p>
+      </div>
+      <div class="about-card">
+        <h3>👨‍🍳 Expert Tips</h3>
+        <p>Each recipe includes chef tips, step-by-step instructions, and substitutions for every diet.</p>
+      </div>
+      <div class="about-card">
+        <h3>❤️ Community Focused</h3>
+        <p>We listen to our users, take suggestions, and feature community-favorite dishes every month.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FlavorCraft. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

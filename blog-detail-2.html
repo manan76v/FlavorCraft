@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Detail - Food Plating</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfcfb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .hero-header {
+      background: url('https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover no-repeat;
+      height: 50vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+
+    .hero-header h1 {
+      font-size: 3rem;
+      background: rgba(0,0,0,0.5);
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .blog-meta {
+      display: flex;
+      gap: 15px;
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 20px;
+    }
+
+    .blog-meta span {
+      display: flex;
+      align-items: center;
+    }
+
+    .blog-meta i {
+      margin-right: 5px;
+    }
+
+    .blog-content h2 {
+      margin-top: 30px;
+      font-size: 1.8rem;
+      color: #222;
+    }
+
+    .blog-content p {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .blog-image {
+      width: 100%;
+      height: auto;
+      margin: 30px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 25px;
+      background: #ff6347;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .back-button:hover {
+      background: #e5533f;
+    }
+
+    @media (max-width: 768px) {
+      .hero-header h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Image with Title -->
+  <div class="hero-header">
+    <h1>Mastering the Art of Food Plating</h1>
+  </div>
+
+  <!-- Main Blog Detail Content -->
+  <div class="container">
+    <div class="blog-meta">
+      <span><i class="far fa-calendar"></i> June 14, 2025</span>
+      <span><i class="fas fa-tag"></i> Techniques</span>
+      <span><i class="fas fa-user"></i> Chef Team</span>
+    </div>
+
+    <div class="blog-content">
+      <img class="blog-image" src="https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Food Plating" />
+
+      <h2>Why Food Plating Matters</h2>
+      <p>Food plating is more than just presentation—it's a vital part of the dining experience. A well-plated dish speaks volumes before the first bite.</p>
+
+      <h2>Key Elements of Plating</h2>
+      <p>Great food plating involves:</p>
+      <ul>
+        <li><strong>Balance:</strong> Keep textures and colors harmonious</li>
+        <li><strong>Focal Point:</strong> Make one element stand out</li>
+        <li><strong>Height & Layers:</strong> Add vertical structure for depth</li>
+        <li><strong>Negative Space:</strong> Don’t overcrowd the plate</li>
+        <li><strong>Color Contrast:</strong> Choose vibrant combinations</li>
+      </ul>
+
+      <h2>Chef’s Pro Tips</h2>
+      <p>Use a ring mold for perfect stacking, a squeeze bottle for sauces, and always wipe the plate edges before serving. Remember, less is often more.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Whether you’re preparing a romantic dinner or impressing dinner guests, mastering food plating will elevate your culinary game to the next level.</p>
+    </div>
+
+    <a href="blog.html" class="back-button">← Back to Blog</a>
+  </div>
+
+</body>
+</html>

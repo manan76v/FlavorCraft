@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorCraft - Discover Amazing Recipes</title>
+    <meta name="description" content="Discover thousands of delicious recipes, cooking tips, and culinary inspiration at FlavorCraft.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-utensils me-2"></i>FlavorCraft
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recipes">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#newsletter">Newsletter</a>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a class="btn btn-primary-custom text-white" href="#signup">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <div class="hero-content animate-fadeInUp">
+                        <h1>Discover Your Next<br><span style="color: var(--secondary-color);">Favorite Recipe</span></h1>
+                        <p class="lead">Explore thousands of delicious recipes from around the world. From quick weeknight dinners to impressive weekend feasts.</p>
+                        
+                        <div class="search-box">
+                            <input type="text" class="form-control" placeholder="Search for recipes, ingredients, or cuisines...">
+                            <button class="search-btn">
+                                <i class="fas fa-search"></i> Search
+                            </button>
+                        </div>
+
+                        <div class="row stats mt-5">
+                            <div class="col-md-4">
+                                <div class="stat-item">
+                                    <div class="stat-number">10K+</div>
+                                    <div>Recipes</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="stat-item">
+                                    <div class="stat-number">50K+</div>
+                                    <div>Happy Cooks</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="stat-item">
+                                    <div class="stat-number">25+</div>
+                                    <div>Countries</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-bounce">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="recipes" class="section-padding">
+        <div class="container">
+            <div class="loading">
+                <h2 class="section-title">Featured Recipes</h2>
+                <p class="section-subtitle">Handpicked recipes from our community of passionate chefs and home cooks</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Mediterranean Salmon Bowl">
+                        <div class="recipe-card-body">
+                            <h5>Mediterranean Salmon Bowl</h5>
+                            <p class="text-muted">Fresh salmon with quinoa, avocado, and Mediterranean vegetables</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 25 min</span>
+                                <span><i class="fas fa-users"></i> 4 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                            <a href="recipe.html?id=1" class="btn btn-primary-custom w-100">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/6287523/pexels-photo-6287523.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Truffle Mushroom Risotto">
+                        <div class="recipe-card-body">
+                            <h5>Truffle Mushroom Risotto</h5>
+                            <p class="text-muted">Creamy arborio rice with wild mushrooms and truffle oil</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 45 min</span>
+                                <span><i class="fas fa-users"></i> 6 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                            <a href="recipe.html?id=2" class="btn btn-primary-custom w-100">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Thai Green Curry">
+                        <div class="recipe-card-body">
+                            <h5>Thai Green Curry</h5>
+                            <p class="text-muted">Authentic Thai curry with coconut milk and fresh herbs</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 35 min</span>
+                                <span><i class="fas fa-users"></i> 4 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.7</span>
+                            </div>
+                             <a href="recipe.html?id=3" class="btn btn-primary-custom w-100">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Chocolate Lava Cake">
+                        <div class="recipe-card-body">
+                            <h5>Chocolate Lava Cake</h5>
+                            <p class="text-muted">Decadent molten chocolate cake with vanilla ice cream</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 30 min</span>
+                                <span><i class="fas fa-users"></i> 2 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                        <a href="recipe.html?id=4" class="btn btn-primary-custom w-100">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/5638531/pexels-photo-5638531.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Beef Wellington">
+                        <div class="recipe-card-body">
+                            <h5>Beef Wellington</h5>
+                            <p class="text-muted">Classic British dish with tender beef in flaky pastry</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 2 hours</span>
+                                <span><i class="fas fa-users"></i> 8 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.6</span>
+                            </div>
+                             <a href="recipe.html?id=5" class="btn btn-primary-custom w-100">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Caprese Salad">
+                        <div class="recipe-card-body">
+                            <h5>Caprese Salad</h5>
+                            <p class="text-muted">Fresh mozzarella, tomatoes, and basil with balsamic glaze</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 10 min</span>
+                                <span><i class="fas fa-users"></i> 4 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                            <a href="recipe.html?id=6" class="btn btn-primary-custom w-100">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Caprese Salad">
+                        <div class="recipe-card-body">
+                            <h5>Caprese Salad</h5>
+                            <p class="text-muted">Fresh mozzarella, tomatoes, and basil with balsamic glaze</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 10 min</span>
+                                <span><i class="fas fa-users"></i> 4 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                            <a href="recipe.html?id=7" class="btn btn-primary-custom w-100">View Recipe</a>
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Thai Green Curry">
+                        <div class="recipe-card-body">
+                            <h5>Thai Green Curry</h5>
+                            <p class="text-muted">Authentic Thai curry with coconut milk and fresh herbs</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 35 min</span>
+                                <span><i class="fas fa-users"></i> 4 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.7</span>
+                            </div>
+                            <a href="recipe.html?id=8" class="btn btn-primary-custom w-100">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="recipe-card loading">
+                        <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Chocolate Lava Cake">
+                        <div class="recipe-card-body">
+                            <h5>Chocolate Lava Cake</h5>
+                            <p class="text-muted">Decadent molten chocolate cake with vanilla ice cream</p>
+                            <div class="recipe-meta">
+                                <span><i class="fas fa-clock"></i> 30 min</span>
+                                <span><i class="fas fa-users"></i> 2 servings</span>
+                                <span class="recipe-rating"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                            <a href="recipe.html?id=9" class="btn btn-primary-custom w-100">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+        <a href="all-recipes.html" class="btn btn-dark btn-lg px-5">View All Recipes</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="categories" class="section-padding bg-light">
+        <div class="container">
+            <div class="loading">
+                <h2 class="section-title">Explore Cuisines</h2>
+                <p class="section-subtitle">Discover flavors from around the world with our diverse collection of authentic recipes</p>
+            </div>
+            
+            <div class="row">
+            
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Italian">
+                        <div class="category-overlay">
+                            <div class="category-title">Italian</div>
+                            <div>450+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Asian">
+                        <div class="category-overlay">
+                            <div class="category-title">Asian</div>
+                            <div>380+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Mexican">
+                        <div class="category-overlay">
+                            <div class="category-title">Mexican</div>
+                            <div>320+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Mediterranean">
+                        <div class="category-overlay">
+                            <div class="category-title">Mediterranean</div>
+                            <div>280+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Indian">
+                        <div class="category-overlay">
+                            <div class="category-title">Indian</div>
+                            <div>340+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/6287523/pexels-photo-6287523.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="French">
+                        <div class="category-overlay">
+                            <div class="category-title">French</div>
+                            <div>250+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+                
+        
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Desserts">
+                        <div class="category-overlay">
+                            <div class="category-title">Desserts</div>
+                            <div>500+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Healthy">
+                        <div class="category-overlay">
+                            <div class="category-title">Healthy</div>
+                            <div>420+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="category-card loading">
+                        <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Breakfast">
+                        <div class="category-overlay">
+                            <div class="category-title">Breakfast</div>
+                            <div>300+ recipes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+            <a href="categories.html" class="btn btn-primary-custom btn-lg px-5">View All Categories</a>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="about" class="section-padding about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="loading">
+                        <h2 class="section-title text-start">Your Culinary Journey<br><span style="color: var(--primary-color);">Starts Here</span></h2>
+                        <p class="lead">FlavorCraft is more than just a recipe website. We're a community of food lovers, home cooks, and culinary adventurers who believe that great food brings people together.</p>
+                        <p>Our mission is to make cooking accessible, enjoyable, and inspiring for everyone. Whether you're a beginner or an experienced chef, we have something special for you.</p>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="feature-item text-start">
+                                    <div class="feature-icon mx-0">
+                                        <i class="fas fa-award"></i>
+                                    </div>
+                                    <h5>Expert-Tested</h5>
+                                    <p class="text-muted">Every recipe is tested by our culinary experts</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item text-start">
+                                    <div class="feature-icon mx-0">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <h5>Community Driven</h5>
+                                    <p class="text-muted">Join thousands of passionate home cooks</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="about.html" class="btn btn-dark btn-lg px-5">Learn More About Us</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="loading">
+                        <div class="position-relative">
+                            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop" alt="Chef cooking" class="img-fluid rounded-3 shadow-lg">
+                            
+                            <div class="position-absolute d-none d-md-block" style="bottom: -20px; left: -20px; background: white; padding: 1.5rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                                <div style="font-size: 2rem; font-weight: bold; color: var(--primary-color);">10K+</div>
+                                <div class="text-muted">Happy Cooks</div>
+                            </div>
+                            
+                            <div class="position-absolute d-none d-md-block" style="top: -20px; right: -20px; background: white; padding: 1.5rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                                <div style="font-size: 2rem; font-weight: bold; color: var(--primary-color);">4.9★</div>
+                                <div class="text-muted">Average Rating</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="testimonials" class="section-padding testimonial-section">
+        <div class="container">
+            <div class="loading">
+                <h2 class="section-title text-white">What Our Community Says</h2>
+                <p class="section-subtitle text-white-50">Join thousands of satisfied home cooks who have transformed their kitchens with FlavorCraft</p>
+            </div>
+            
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center loading">
+                                    <div class="testimonial-rating mb-3">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="lead">"FlavorCraft has completely transformed my cooking! The step-by-step instructions are so clear, and I've never had more confidence in the kitchen."</p>
+                                    <div class="d-flex align-items-center justify-content-center mt-4">
+                                        <img src="https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Sarah Johnson" class="testimonial-avatar">
+                                        <div class="text-start">
+                                            <h6 class="mb-0">Sarah Johnson</h6>
+                                            <small class="text-muted">Home Cook</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center loading">
+                                    <div class="testimonial-rating mb-3">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="lead">"As a food blogger, I've tried countless recipe sites, but FlavorCraft stands out. The quality of recipes and the supportive community make it my go-to platform."</p>
+                                    <div class="d-flex align-items-center justify-content-center mt-4">
+                                        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Michael Chen" class="testimonial-avatar">
+                                        <div class="text-start">
+                                            <h6 class="mb-0">Michael Chen</h6>
+                                            <small class="text-muted">Food Blogger</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center loading">
+                                    <div class="testimonial-rating mb-3">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="lead">"With three kids and a full-time job, I need recipes that are quick but still delicious. FlavorCraft's easy weeknight meals have been a lifesaver."</p>
+                                    <div class="d-flex align-items-center justify-content-center mt-4">
+                                        <img src="https://images.pexels.com/photos/3184420/pexels-photo-3184420.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Emily Rodriguez" class="testimonial-avatar">
+                                        <div class="text-start">
+                                            <h6 class="mb-0">Emily Rodriguez</h6>
+                                            <small class="text-muted">Busy Mom</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="newsletter" class="section-padding newsletter-section">
+        <div class="container text-center">
+            <div class="loading">
+                <i class="fas fa-envelope fa-4x mb-4"></i>
+                <h2 class="section-title text-white">Never Miss a Recipe</h2>
+                <p class="section-subtitle text-white-50">Get the latest recipes, cooking tips, and culinary inspiration delivered straight to your inbox</p>
+                
+                <div class="newsletter-form">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control newsletter-input" placeholder="Enter your email address">
+                                <button class="btn btn-light btn-lg px-4" type="button" style="height: 56px;">Subscribe Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="text-white-50 small">No spam, ever. Unsubscribe at any time. We respect your privacy.</p>
+                
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-2 col-4">
+                        <div class="text-center">
+                            <div style="font-size: 2rem; font-weight: bold;">25K+</div>
+                            <div class="text-white-50">Subscribers</div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="text-center">
+                            <div style="font-size: 2rem; font-weight: bold;">Weekly</div>
+                            <div class="text-white-50">Recipes</div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="text-center">
+                            <div style="font-size: 2rem; font-weight: bold;">100%</div>
+                            <div class="text-white-50">Free</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="blog" class="section-padding bg-light">
+        <div class="container">
+            <div class="loading">
+                <h2 class="section-title">Latest Food Stories</h2>
+                <p class="section-subtitle">Read our latest culinary adventures, tips, and stories from the kitchen</p>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Cooking Tips</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 15, 2025</p>
+                                <h4 class="mb-3">10 Essential Kitchen Tools Every Home Chef Needs</h4>
+                                <p class="text-muted">Discover the must-have tools that will transform your cooking experience and help you create restaurant-quality meals at home.</p>
+                                <a href="blog-detail.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Techniques</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 14, 2025</p>
+                                <h4 class="mb-3">Mastering the Art of Food Plating</h4>
+                                <p class="text-muted">Learn professional plating techniques to make your home-cooked meals look as stunning as they taste.</p>
+                                <a href="blog-detail-2.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/3338497/pexels-photo-3338497.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Wellness</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 13, 2025</p>
+                                <h4 class="mb-3">Mindful Cooking: A Guide to Healthy Meal Prep</h4>
+                                <p class="text-muted">Explore how mindful cooking can improve your relationship with food and lead to healthier eating habits.</p>
+                                <a href="blog-detail-3.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Cooking Tips</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 15, 2025</p>
+                                <h4 class="mb-3">10 Essential Kitchen Tools Every Home Chef Needs</h4>
+                                <p class="text-muted">Discover the must-have tools that will transform your cooking experience and help you create restaurant-quality meals at home.</p>
+                                <a href="blog-detail.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Techniques</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 14, 2025</p>
+                                <h4 class="mb-3">Mastering the Art of Food Plating</h4>
+                                <p class="text-muted">Learn professional plating techniques to make your home-cooked meals look as stunning as they taste.</p>
+                                <a href="blog-detail-2.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="blog-card loading">
+                            <div class="blog-image">
+                                <img src="https://images.pexels.com/photos/3338497/pexels-photo-3338497.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" alt="Food Blog">
+                                <div class="blog-tag">Wellness</div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-2 text-primary"><i class="far fa-calendar me-2"></i>June 13, 2025</p>
+                                <h4 class="mb-3">Mindful Cooking: A Guide to Healthy Meal Prep</h4>
+                                <p class="text-muted">Explore how mindful cooking can improve your relationship with food and lead to healthier eating habits.</p>
+                                <a href="blog-detail-3.html" class="btn btn-outline-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4">
+                <a href="blog.html" class="btn btn-dark btn-lg px-5">Read Our Blog</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="app" class="section-padding" style="background: linear-gradient(135deg, #ff6b35 0%, #f79e1b 100%);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="loading text-white">
+                        <h2 class="section-title text-white">Cook On The Go</h2>
+                        <p class="lead mb-4">Download the FlavorCraft app and take your cooking journey to the next level</p>
+                        
+                        <div class="features-list mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="feature-icon-circle bg-white me-3">
+                                    <i class="fas fa-search text-primary"></i>
+                                </div>
+                                <div>Browse recipes offline</div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="feature-icon-circle bg-white me-3">
+                                    <i class="fas fa-shopping-basket text-primary"></i>
+                                </div>
+                                <div>Smart shopping lists</div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="feature-icon-circle bg-white me-3">
+                                    <i class="fas fa-timer text-primary"></i>
+                                </div>
+                                <div>Step-by-step cooking timers</div>
+                            </div>
+                        </div>
+                        
+                        <div class="app-buttons">
+                            <a href="#" class="btn btn-light btn-lg me-3 mb-3">
+                                <i class="fab fa-apple me-2"></i>App Store
+                            </a>
+                            <a href="#" class="btn btn-light btn-lg mb-3">
+                                <i class="fab fa-google-play me-2"></i>Google Play
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="loading text-center">
+                        <img src="https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop" alt="Mobile App" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5><i class="fas fa-utensils me-2"></i>FlavorCraft</h5>
+                    <p class="text-white">Your ultimate destination for discovering amazing recipes, cooking tips, and culinary inspiration from around the world.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#recipes">Recipes</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Popular Categories</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Italian Cuisine</a></li>
+                        <li><a href="#">Asian Recipes</a></li>
+                        <li><a href="#">Healthy Meals</a></li>
+                        <li><a href="#">Desserts</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Get in Touch</h5>
+                    <div class="mb-2">
+                        <i class="fas fa-envelope me-2" style="color: var(--secondary-color);"></i>
+                        hello@flavorcraft.com
+                    </div>
+                    <div class="mb-2">
+                        <i class="fas fa-phone me-2" style="color: var(--secondary-color);"></i>
+                        +1 (555) 123-4567
+                    </div>
+                    <div class="mb-2">
+                        <i class="fas fa-map-marker-alt me-2" style="color: var(--secondary-color);"></i>
+                        San Francisco, CA
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-white mb-0">&copy; 2024 FlavorCraft. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#" class="me-3">Terms of Service</a>
+                    <a href="#">Help Center</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>

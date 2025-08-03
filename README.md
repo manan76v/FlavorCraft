@@ -1,6 +1,6 @@
 Recipe Hub – Discover Your Next Favorite Dish!
 Recipe Hub is a modern, responsive, and visually appealing recipe landing page designed for food lovers and home cooks. Built using HTML, CSS,JS and Bootstrap, this project showcases a stylish layout with multiple sections like featured recipes, cuisines, food blogs, and a newsletter sign-up – all designed to improve the user's browsing experience.
-
+Demo: https://sunny-dolphin-977eca.netlify.app/
 ✨ Features
 
 ✅ Hero section with a search bar and stats

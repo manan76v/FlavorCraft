@@ -1,5 +1,5 @@
 Recipe Hub – Discover Your Next Favorite Dish!
-Recipe Hub is a modern, responsive, and visually appealing recipe landing page designed for food lovers and home cooks. Built using HTML, CSS, and Bootstrap, this project showcases a stylish layout with multiple sections like featured recipes, cuisines, food blogs, and a newsletter sign-up – all designed to improve the user's browsing experience.
+Recipe Hub is a modern, responsive, and visually appealing recipe landing page designed for food lovers and home cooks. Built using HTML, CSS,JS and Bootstrap, this project showcases a stylish layout with multiple sections like featured recipes, cuisines, food blogs, and a newsletter sign-up – all designed to improve the user's browsing experience.
 
 ✨ Features
 
@@ -21,7 +21,12 @@ Recipe Hub is a modern, responsive, and visually appealing recipe landing page d
 
 🔧 Technologies Used
 HTML5
-CSS3
+CSS3,js
 Bootstrap 5
-Google Fonts & Font Awesome Icons
+Google Font
+<img width="692" height="408" alt="R1" src="https://github.com/user-attachments/assets/d4cabc02-6b93-436a-b357-99f9bc1edc69" />
+
+<img width="1920" height="2791" alt="RecipeDescriptionsPage" src="https://github.com/user-attachments/assets/b8540717-a9a2-4b51-a261-8648add5c22b" />
+
+s & Font Awesome Icons
 
